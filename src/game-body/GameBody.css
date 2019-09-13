@@ -1,0 +1,32 @@
+.game-details{
+    display: flex;
+    justify-content: space-around;
+}
+.header-wd{
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+.body-wd{
+    width: 70%;
+}
+.ques-body{
+    display: flex;
+    padding: 2px;
+    margin: 5px 30px 5px 30px;
+    border-radius: 5px;
+}
+.ques-seq{
+    width: 10%
+}
+.ques-disc{
+    width: 88%;
+    text-align: start;
+}
+.ques-edit{
+    font-size: 20px;
+    font-weight: bolder;
+    color: gray;
+    cursor: pointer;
+}

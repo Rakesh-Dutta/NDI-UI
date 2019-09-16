@@ -24,7 +24,7 @@ class GameBody extends Component {
                         <Nav.Link value='game-etails' onClick = {this.handleClick} eventKey="game-details">Game Details</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link value='questions' onClick = {this.handleClick} eventKey="questions">Questions({questions.length})</Nav.Link>
+                        <Nav.Link value='questions' onClick = {this.handleClick} eventKey="questions">Questions</Nav.Link>
                     </Nav.Item>
                 </Nav>
                 { tabStatus === 'Game Details' ? <GameDetails gameDetails={gameDetails}/> : undefined }

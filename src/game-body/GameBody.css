@@ -17,6 +17,9 @@
     margin: 5px 30px 5px 30px;
     border-radius: 5px;
 }
+.ques-body:hover{
+    background: #03A9F4;
+}
 .ques-seq{
     width: 10%
 }
@@ -28,5 +31,21 @@
     font-size: 20px;
     font-weight: bolder;
     color: gray;
+    cursor: pointer;
+}
+.game-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+    /* background: lightgray; */
+}
+.game-mdf{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+.opt-style{
+    color: gray;
+    font-weight: bold;
     cursor: pointer;
 }

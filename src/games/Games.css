@@ -40,16 +40,29 @@
 }
 .individual-game{
     background: lightgray;
-    width: 33.3%;
+    width: 25%;
     overflow: auto;
     height: 100px;
     text-align: center;
-    margin: auto 10px;
+    margin: auto 5px;
     cursor: pointer;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    min-width: 25%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #03A9F4;
+    border-radius: 10px;
 }
+.individual-game:hover{
+    background: #03A9F4;
+    color: white;
+}
+/* .individual-game:visited{
+    background-color: yellow !important;
+    color: white;
+} */
 .game-model{
     display: flex;
     flex-direction: column;

@@ -8,10 +8,10 @@ class Games extends Component {
         super();
         this.state = {
             data : [
-                {gameDetails:{name:'game0', description:'game0 is argumental'}, questions:['abc', 'xyz', 'lmn']},
+                {gameDetails:{name:'game0', description:'game0 is argumental'}, questions:['abc0', 'xyz0', 'lmn0']},
                 {gameDetails:{name:'game1', description:'game1 is argumental'}, questions:['abc', 'xyz', 'lmn']}, 
                 {gameDetails:{name:'game2', description:'game2 is argumental'}, questions:['abc', 'xyz', 'lmn']}, 
-                {gameDetails:{name:'game3', description:'game3 is argumental'}, questions:['abc', 'xyz', 'lmn']}, 
+                {gameDetails:{name:'game3', description:'game3 is argumental'}, questions:['abc3', 'xyz3', 'lmn3']}, 
                 {gameDetails:{name:'game4', description:'game4 is argumental'}, questions:['abc', 'xyz', 'lmn']}, 
                 {gameDetails:{name:'game5', description:'game5 is argumental'}, questions:['abc', 'xyz', 'lmn']}, 
                 {gameDetails:{name:'game6', description:'game6 is argumental'}, questions:['abc', 'xyz', 'lmn']}, 
@@ -28,7 +28,7 @@ class Games extends Component {
         }
     }
     handleClick = (event) => {
-        this.setState({gameIndex: event.target.textContent.split('')[4]});
+        this.setState({gameIndex: event.target.textContent.split('e')[1]});
     }
     addGame = () => {
         this.setState({isAddGame: true})
